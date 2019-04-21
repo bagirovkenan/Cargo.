@@ -1,0 +1,69 @@
+.OrderNoteDiv{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.CountryDiv span{
+    color: #495057;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    border-bottom: 0px;
+    border-radius: 4px 4px 0 0;
+    padding: 10px 15px;
+    background-color: #f6f6f6 !important;
+
+}
+.OrderInputsMainDiv{
+    background-color: #f6f6f6;
+    padding: 36px 50px;
+    border: 1px solid #ddd;
+    border-radius: 0px 4px 4px 4px;
+}
+.addLinkButtonDiv button{
+    background-color: #f8a700;
+    border-radius: 3px;
+    display: inline-block;
+    color: #fff;
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    margin-left:15px;
+    border: unset;
+    box-shadow: unset;
+    text-align: center;
+    transition: 0.5;
+}
+
+.addLinkButtonDiv button:hover{
+    background-color: darkred;
+}
+.formInputDiv{
+    margin-top:50px; 
+}
+
+.OrdersubmitBtn{
+    background-color: #64b5f6;
+    border: unset;
+    box-shadow: unset;
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+    color: #fff;
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+#removform{
+    background-color: darkred;
+    border-radius: 3px;
+    display: inline-block;
+    color: #fff;
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    margin-top:15px;
+    border: unset;
+    box-shadow: unset;
+    text-align: center;
+    transition: 0.5;
+
+}

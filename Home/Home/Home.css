@@ -1,0 +1,462 @@
+a{
+ text-decoration: none;
+
+}
+
+
+.HeaderTopMainDiv{
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    padding-top: 5px;
+}
+
+.HeaderTopContact .top-contact a{
+  text-decoration: none;
+  color: #fff ;
+  margin: 1%;
+  font-size: 14px;
+}
+
+.HeaderTopContact .top-contact a i{
+    color: orangered;
+}
+
+.HeaderProfil .UserProfilUl li{
+   display: inline;
+    /* //margin: 1%; */
+    color: aliceblue;
+    font-size: 14px;
+    padding: 2px;
+}
+.HeaderProfil .UserProfilUl li i{
+    margin-right: 2%;
+    color: orangered;
+}
+/* heder top end///////////////////////////////////////// */
+
+/* hEADER BOOTtom start///////////////////////////////// */
+
+#navmainnavbar{
+    background-color: #fff !important;
+}
+#logoPng{
+    width: 300px;
+    height: 43px;
+    margin-left: 5%;
+}
+
+#navbarTogglerDemo03{
+    margin-left:20%;
+}
+
+#navbarTogglerDemo03 ul li{
+    margin-left: 15px;
+}
+/* hEADER BOOTtom end///////////////////////////////// */
+
+/* slider  start///////////////////////////////// */
+.carousel-item .slider{
+
+    width: 100%;
+    height: 400px;;
+
+}
+
+
+/* slider  end///////////////////////////////// */
+.newsTitleDiv {
+  text-align: center; 
+}
+
+.newsTitleDiv h2{
+    margin-top: 0px;
+    text-transform: uppercase;
+    color: #444;
+    font-size: 32px;
+    font-weight: 400;
+  }
+
+  .newsTitleDiv p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #444;
+
+  }
+
+  .newsblogfadeInUp{
+    box-shadow: 0px 3px 6px 0px rgba(153,153,153,0.5);
+    position: relative;
+    overflow: hidden;
+    margin: 15px 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+ 
+   
+    border: solid 1px #a7a7a7; 
+  }
+  .newBlogImgDiv{
+    background-color: #a7a7a7;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+  }
+
+  .newsBlognews{
+      margin: 4%;
+  }
+
+  .newsBlognews h4{
+    font-size: 18px;
+    color: #444444;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  
+  }
+
+  .newsBlognews p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #444444;
+  }
+
+  /* news end */
+  /*calculate start  */
+
+.calculatemaindiv{
+    width: 100%; 
+    height: auto;
+    background-image: url("blg3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+
+.calculateContainerDiv{
+    padding-top: 40px;
+    margin-top:70px;
+    width: 100%;  
+    position: relative;
+    background-image: linear-gradient(rgba(255,0,30,0.8), rgba(86,0,0,0.8));
+}
+
+.calculateInputMainDiv{
+    margin-top: 5%;
+}
+
+.CalculateInputTextColdiv {
+    text-align: center;
+    margin-top:5%;
+    font-size: 25px;
+    color: #fff;
+}
+  /* calculate end */
+
+
+  /* process start */
+.process-step{
+    display: inline;
+
+    background-color: black;
+}
+
+.ProcessIconsMainRow{
+
+     margin-top:40px;
+
+}
+.ProcessIconsMainRow{
+    margin-left: 2%;
+}
+.ProcesIconImagDiv{
+    width: 160px;
+    text-align: center;
+    height: 160px;
+    float: left;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 2px solid #eb0028;
+    position: relative;
+    padding-top: 44px;
+    margin-bottom: 10px;
+}
+
+.ProcesIconImagDiv span{
+    width: 56px;
+    height: 56px;
+    background-color: #eb0028;
+    border: 2px solid #fff;
+    color: #fff;
+    line-height: 56px;
+    font-size: 28px;
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    margin-top: -30px;
+    border-radius: 100%;
+    font-weight: 700;
+}
+.ProcessIconColDiv p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    clear: both;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: -20%;
+}
+.ProcessIconColDiv:before {
+    position: absolute;
+    right: 0px;
+    width: 101px;
+    height: 2px;
+    background-color: #eb0028;
+    content: "";
+    top: 80px;
+    display: block;
+    z-index: 99;
+}
+.ProcessIconColDiv:last-child::before{
+    display: none;
+}
+
+  /* process end */
+
+  /* footer strt */
+  .footerMinDiv{
+      width: 100%;
+      height: auto;
+      background-color: #141414;
+      padding-top: 50px;
+  }
+
+   .footerMinDiv .FooterVipexImgColDiv .footerVipexImgDiv img{
+       width: 255px;
+       height: 35px;;
+   }
+   .footerMailDiv{
+       margin-top: 20px;
+   }
+   .footerTitelsColDiv .FooterTitelsDiv .footerTitel{
+    color: #fff;
+    margin-top: 0px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 40px;
+   }
+
+   .footerTitelsColDiv .FooterTitelsDiv .footerTitel::before{
+    position: absolute;
+    display: block;
+    height: 2px;
+    background-color: #eb0028;
+    left: 0px;
+    bottom: -10px;
+    content: "";
+    width: 40px;
+   }
+
+   .footerIcon div{
+       width: 30px;
+       height: 30px;
+       border:solid 1px  #a7a7a7;
+       background-color: #a7a7a7;
+       display: inline-block;
+       border-radius: 100%;
+       text-align: center;
+       margin:1%;
+       padding-top:1%;
+       transition: 1s;
+   }
+   .footerIcon div a{
+       color: #444;
+       transition: 1s;
+   }
+
+   .footerIcon div:hover a{
+     
+       color: #fff;
+   }
+   .footerIcon div:hover{
+    background-color:  #eb0028;
+   }
+
+   .footerContactIcon span{
+    color: #eb0028;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    transition: 1s;
+   }
+
+   .footerContactIcon span i{
+       font-size: 12px;
+       color:#a7a7a7;
+       transition: 1s;
+   }
+
+   .footerContactIcon :hover span{
+       color: #a7a7a7;
+       cursor: pointer;
+   }
+   .footerContactIcon :hover i{
+    color: #eb0028;;
+    cursor: pointer;
+
+}
+
+.footerWorkHorsSpaniv div{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #a7a7a7;;
+    border-bottom: 1px dashed #404040;
+    padding: 10px;
+    padding-left: 0px;
+}
+.FooterCredicartImgdiv img{
+    width: 100px;
+    height: 30px;
+}
+
+
+  /* footer end */
+
+/* Medias scren 600px///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (max-width: 600px) {
+
+    .HeaderTopContact #Clock{
+        display:none;
+       
+    }
+
+    .HeaderTopContact .top-contact a{
+        text-align: center;
+        margin: 3%;
+        width: 50%;
+        margin-left: 2%;
+        margin-left: 9%;
+    }
+   
+
+
+  
+    .HeaderProfil .UserProfilUl li{
+        width:100%;
+        text-align: left;
+        display: block;
+        /* margin-left:20%; */
+        
+    }
+    .HeaderProfil .UserProfilUl #OrderBasket{
+        display:none;
+    }
+
+    .HeaderProfil .UserProfilUl #Exit{
+        width: 50%;
+        text-align: center;
+       
+        display: inline;
+        /* margin-left:23%; */
+    }
+    .HeaderProfil .UserProfilUl #Country{
+        width: 50%;
+        text-align: center;
+        display: inline;
+        /* margin-left:5%; */
+    }
+
+
+
+    #logoPng{
+        width: 200px;
+        height: 28px;
+        margin-left: 5%;
+    }
+
+    #navbarTogglerDemo03{
+        margin-left:0%;
+    }
+    
+    #navbarTogglerDemo03 ul li{
+        margin-left:0px;
+    }
+
+
+    .carousel-item .slider{
+
+        width: 100%;
+        height: 200px;;
+    
+    }
+
+    /* calculate start */
+
+    .CalculateInputTextColdiv{
+        font-size: 16px;
+    }
+.ProcessIconsMainRow{
+    margin-left: 2%;
+}
+    .ProcesIconImagDiv{
+        width: 120px;
+        text-align: center;
+        height: 120px;
+        float: left;
+        border-radius: 100%;
+        background-color: #fff;
+        border: 1px solid #eb0028;
+        position: relative;
+        padding-top: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .ProcesIconImagDiv span{
+        width: 26px;
+        height: 26px;
+        background-color: #eb0028;
+        border: 1px solid #fff;
+        color: #fff;
+        line-height: 26px;
+        font-size: 18px;
+        position: absolute;
+        left: -30px;
+        top: 50%;
+        margin-top: -30px;
+        border-radius: 100%;
+        font-weight: 700;
+    }
+    .ProcessIconColDiv p{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        clear: both;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        margin-left: -20%;
+    }
+
+    .ProcessIconColDiv:before {
+        display: none;
+    }
+
+    .footerIcon div{
+       
+        padding-top:2px;
+
+    }
+  
+}
+
+
+/* media screen phone */
+

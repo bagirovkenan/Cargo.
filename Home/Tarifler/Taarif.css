@@ -1,0 +1,74 @@
+.FaqTopImgMainDiv{
+    background-position: center;
+    background-size: cover;
+    color: #a3a3a3;
+    position: relative;
+    padding: 50px 0px;
+    background-image:url("sm.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.FaqTopImgMainDiv::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(22,0,1,0.8);
+    display: block;
+    content: "";
+    left: 0px;
+    top: 0px;
+}
+.faqTitleColDiv h1{
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 32px;
+}
+.RightText h4{
+
+    margin: 0px ;
+    color: #fff;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.RightText h4 span{
+    color: #eb0028;
+}
+/* top img end */
+.AboutContentBlogDiv{
+    box-shadow: 1px 1px 4px 0px rgba(153,153,153,0.4);
+}
+
+.AboutContentTextDiv{
+    padding: 15px 30px
+}
+.PriceDiv{
+    box-shadow: 1px 1px 4px 0px rgba(153,153,153,0.4);
+    background-color: #fcfcfc;
+    border: 1px solid #dddddd;
+    border-top: 0px;
+    text-align: center;
+    border-radius:3px;
+     
+}
+.PriceDiv ul li{
+    list-style-type: none;
+    font-size: 22px;
+    line-height: 200%;
+    color: red;
+}
+
+/* Medias scren 600px///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (max-width: 600px) {
+.PriceDiv ul li{
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 200%;
+    color: red;
+
+}

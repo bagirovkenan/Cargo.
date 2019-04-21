@@ -1,0 +1,191 @@
+.FaqTopImgMainDiv{
+    background-position: center;
+    background-size: cover;
+    color: #a3a3a3;
+    position: relative;
+    padding: 50px 0px;
+    /* background-image:url("faqtop.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.FaqTopImgMainDiv::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(22,0,1,0.8);
+    display: block;
+    content: "";
+    left: 0px;
+    top: 0px;
+}
+.faqTitleColDiv h1{
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 32px;
+}
+.RightText h4{
+
+    margin: 0px ;
+    color: #fff;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.RightText h4 span{
+    color: #eb0028;
+}
+.LeftBlogContentDiv{
+    background-color: #f6f6f6;
+    padding: 36px 50px;
+    border: 1px solid #ddd;
+    border-radius: 0px 4px 4px 4px;
+    border-top: 0px;
+}
+.ContentAdressRowDiv{
+    font-size: 14px;
+}
+
+.RightBlokClientNumberDiv{
+    background:#e52e2d;
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 26px;
+    border-radius: 3px;
+}
+
+.orderLink{
+    background-color: #f8a700;
+    border-radius: 3px;
+    display: inline-block;
+    color: #fff;
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding: 9px 0px;
+    margin-right: unset;
+    text-align: center;
+    text-decoration: none!important;
+    transition: 1s;
+}
+.orderLink:hover{
+    color: #fff;
+    background-color: darkred;
+}
+
+#DeclerationBtnId{
+    background-color: #64b5f6;
+    border-radius: 3px;
+    display: inline-block;
+    color: #fff;
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    box-shadow: unset;
+    margin-left:8%;
+    transition: 1s;
+   
+}
+a{
+    text-decoration: none!important;
+}
+    
+.news-date{
+    width: 94px;
+    background-color: #eb0028;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 3px 0px 0px 3px;
+    float: left;
+    margin-right: 20px;
+    padding: 30px 0px 0px;
+    position: relative;
+    min-height: 109px;
+}
+
+.news-date span{
+    font-size: 14px;
+    display: block;
+    border-radius: 0px 0px 0px 3px;
+    background-color: #9e0b0f;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+.latest-news-section{
+ 
+    border-radius: 3px;
+    background-color: #ebebeb;
+    margin-top: 15px;
+ 
+    width: 100%;
+    float: left;
+    padding-right: 15px;
+    position: relative;
+}
+.latest-news-section h5{
+    margin-bottom: 3px;
+    margin-top: 5px;
+    color: #444444;
+}
+
+
+#DeclerationBtnId:hover{
+    background-color: darkred; 
+}
+
+.news-post-by{
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    color: #444444;
+}
+
+.latest-news-section p{
+    margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #444444;
+}
+
+
+.RightBlokMainDiv ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.RightBlokMainDiv ul li{
+    padding-bottom: 4px;
+}
+
+.RightBlokMainDiv ul li a{
+    display: block;
+    padding: 12px 10px 12px 20px;
+    background-color: #f6f6f6;
+    color: #444444;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s;
+} 
+.RightBlokMainDiv ul li a:hover{
+    background-color: #eb0028;
+    color: #f6f6f6;
+}
+
+/* Medias scren 600px///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (max-width: 600px) {
+    #DeclerationBtnId{
+        margin-left:0%;
+        width: 100%;
+    }
+
+}

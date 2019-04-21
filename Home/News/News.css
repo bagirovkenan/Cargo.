@@ -1,0 +1,229 @@
+.FaqTopImgMainDiv{
+    background-position: center;
+    background-size: cover;
+    color: #a3a3a3;
+    position: relative;
+    padding: 50px 0px;
+    background-image:url("faqtop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.FaqTopImgMainDiv::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(22,0,1,0.8);
+    display: block;
+    content: "";
+    left: 0px;
+    top: 0px;
+}
+.faqTitleColDiv h1{
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 32px;
+}
+.RightText h4{
+
+    margin: 0px ;
+    color: #fff;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.RightText h4 span{
+    color: #eb0028;
+}
+
+/* news topimg end */
+
+/* news blog start */
+.NewBlogMainDiv{
+    margin-top: 80px;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+   
+}
+li{
+    list-style-type: none;
+}
+
+.NewsBlog{
+    box-shadow: 1px 1px 3px 0px rgba(153,153,153,0.7);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+ 
+    border-radius: 5px;
+}
+.NewsBlogImg
+{
+    background-color: #a7a7a7;
+    background-image: url("sm.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 200px;   
+}
+
+.NewsBlogNewsTitle{
+    padding: 0px 20px;
+    height: 140px;
+    overflow: hidden;
+}
+
+.NewsBlogNewsTitle h3{
+    color: #212121;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.NewsBlogNewsTitle p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #444444;
+}
+
+.NewsBlogIconDiv{
+    clear: both;
+    padding-bottom: 10px;
+}
+
+
+.NewsBlogIconDiv ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.NewsBlogIconDiv ul li{
+    display: inline-block;
+    padding: 5px;
+    color: #7c7c7c;
+}
+
+.continue-read-blog{
+    text-align: center;
+    position: relative;
+}
+.continue-read-blog::before{
+    height: 1px;
+    position: absolute;
+    background-color: #ececec;
+    content: "";
+    left: 0px;
+    top: 50%;
+    width: 100%;
+}
+
+
+.continue-read-blog a{
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    color: #eb0028;
+    padding: 10px 30px;
+    line-height: 20px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+.NewsBloGHeaderDiv{
+    padding-top:45px 
+}
+/* news blog end */
+/* 
+.NewsRightBlogMainDiv img{
+width: 80px;
+height: 80px;;
+} */
+
+.NewsRightBlogMainDiv{
+    background-color: #f8f8f8;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+}
+.NewsRightBlogMainDiv h4{
+    border-radius: 3px 3px 0px 0px;
+    padding: 14px 20px;
+    margin: 0px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    background-color: #3a3a3a;
+}
+.NewsRightBlogMainDiv ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+ 
+}
+
+.NewsRightBlogMainDiv ul li{
+    padding: 15px 5px 15px 0px;
+    border-bottom: 1px dashed #b6b6b6;
+    border-top: 1px dashed #fff;
+    width: 100%;
+    float: left;
+    padding-left:15px;
+    background-color: #f8f8f8;
+
+}
+
+.NewsRightBlogMainDiv ul li a{
+    color: #201f1f;
+    font-size: 12px;
+    line-height: 18px;
+}
+.NewsRightBlogMainDiv ul li p{
+    margin-bottom: 3px;
+}
+.NewsRightBlogMainDiv ul li img{
+    float: left;
+    margin-right: 10px;
+    max-width: 80px;
+}
+/* /////////////////////////////////////////////////// */
+/* news details */
+.NewsDetailsShowNewsMainDiv{
+    box-shadow: 1px 1px 4px 0px rgba(153,153,153,0.4);
+}
+
+
+
+
+.NewsDetailsNewsDiv{
+    padding: 15px 30px;
+}
+
+
+.NewsDetailsNewsDiv h2{
+    color: #212121;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.NewsDetailsNewsDiv h6{
+color: #777777;
+font-weight: 300;
+padding-top: 10px;
+}
+
+.NewsDetailsNewsDiv h3{
+    font-size: 24px;
+    font-weight: 400;
+ }
+
+ #BackToMainNews{
+    color: red;
+    font-size: 18px;
+ }

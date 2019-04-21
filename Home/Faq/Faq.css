@@ -1,0 +1,110 @@
+.FaqTopImgMainDiv{
+    background-position: center;
+    background-size: cover;
+    color: #a3a3a3;
+    position: relative;
+    padding: 50px 0px;
+    background-image:url("faqtop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.FaqTopImgMainDiv::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(22,0,1,0.8);
+    display: block;
+    content: "";
+    left: 0px;
+    top: 0px;
+}
+.faqTitleColDiv h1{
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 32px;
+}
+.RightText h4{
+
+    margin: 0px ;
+    color: #fff;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.RightText h4 span{
+    color: #eb0028;
+}
+
+/* faqs topimg end */
+
+/* faqs start */
+.FaqFaqsMainColDiv{
+    border: solid 1px  #a7a7a7; 
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px 0px rgba(153,153,153,0.5);
+}
+
+.FaqsTopTitleDiv h3{
+    
+    padding-bottom: 12px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.ShowFaqtitleFaq{
+    padding: 20px 30px 20px 15px;
+    display: block;
+    position: relative;
+    transition:  1s;
+    border-bottom: #a7a7a7 solid 1px;
+    width: 100%;
+}
+
+.FaqTitleColDiv .ShowFaqtitleFaq h3{
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 20px; 
+    border-bottom: #a7a7a7;
+}
+
+.FaqHiddeColDiv{
+    padding: 15px 20px 20px 15px;
+    transition:  1s;
+ 
+   
+}
+
+.FaqHiddeColDiv p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #444444;
+   
+}
+.yourClass{
+    background-color: red;
+    transition: 1s;
+}
+.show{
+    display: block !important;
+    transition: 1s;
+}
+/* .FaqTitleColDiv:hover .ShowFaqtitleFaq {
+    background-color: red;
+} */
+/* .FaqTitleColDiv:hover .FaqHiddeColDiv{
+   height: 100px;
+   display: block;
+}
+
+
+.FaqTitleColDiv:hover .FaqHiddeColDiv>p{
+display: inline;
+} */
